@@ -437,10 +437,10 @@ footer p {
         transform: translateX(-450px);
     }
     76% {
-        transform: translateX(-1200px);
+        transform: translateX(-900px);
     }
     86% {
-        transform: translateX(-1200px);
+        transform: translateX(-900px);
     }
     100% {
         transform: translateX(0);
