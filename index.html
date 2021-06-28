@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Bonjour, je suis Logan Lopez développeur Web et Web Mobile">
+    <title>Logan Lopez - Développeur Web / Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-light">
+            <li class="nav-item"><a href="#">Accueil</a></li>
+            <li class="nav-item"><a href="#aboutme">A propos de moi</a></li>
+            <li class="nav-item"><a href="#skills">Mes compétences</a></li>
+            <li class="nav-item"><a href="#work">Mon travail</a></li>
+            <li class="nav-item"><a href="#contact">Contactez-moi</a></li>
+            <li class="nav-item"></li>
+        </nav>
+    <!-- Fin Navbar -->
+    <!-- Information principal -->
+        <div class="main-title">
+            <h1>Bonjour, je m'appelle Logan</h1>
+            <h2>Je suis Développeur Web et Web Mobile</h2>
+            <img class="main-picture" src="img/avatar.png" alt="" srcset="">
+        </div>
+    <!-- Fin Information principal -->
+    </header>
+    <!-- A propos de moi -->
+    <section id="aboutme" class="aboutme">
+        <h2>A propos de moi</h2>
+        <p>Un jeune passionné du Web qui aimerait faire de sa passion son métier </p>
+        <div class="aboutme-container">
+            <div class="container">
+                <div class="column">
+                    <img src="img/livre.svg" alt="" srcset="">
+                    <h3>Formation</h3>
+                    <p>POP School Lens - Titre Professionnel Développeur Web & Web Mobile</p>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="column">
+                    <img src="img/teamwork.svg" alt="" srcset="">
+                    <h3>Qualités</h3>
+                    <ul>
+                        <li>Esprit d'équipe</li>
+                        <li>Motiver</li>
+                        <li>Rigoureux</li>
+                        <li>Autonome</li>
+                        <li>Envie d'apprendre</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <div>
+       <!-- Fin A propos de moi -->
+       <!-- Compétences -->
+    <section id="skills" class="skills">
+        <h2>Mes compétences</h2>
+        <p>Au cours de ma formation j'ai pu acquérir de nombreuses compétences 
+            me permettant d'exercer le métier de Développeur Web & Web Mobile</p>
+        <div class="container">
+            <div class="column">
+                <img src="img/back.svg" alt="" srcset="">
+                <h3>Back-End</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>Symfony</li>
+                    <li>MySQL</li>
+                    <li>Python</li>
+                    <li>NodeJS/ExpressJS</li>
+                    <li>ReactJS/React native</li>
+                    <li>Laravel</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column">
+                <img src="img/outils.svg" alt="" srcset="">
+                <h3>Outils</h3>
+                <ul>
+                    <li>Linux ( Debian 10 )</li>
+                    <li>Visual Studio Code</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column">
+                <img src="img/front.svg" alt="" srcset="">
+                <h3>Front-End</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>ReactJS</li>
+                    <li>Wordpress</li>
+                    <li>SASS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Compétences -->
+    <!-- Mon Travail -->
+    <section  id="work" class="work">
+        <img src="img/workwhite.svg" alt="">
+        <h2>Mon Travail</h2>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="./img/work/showtrack.png" alt=""></div>
+                <div class="slide"><img src="./img/coming-soon.jpg" alt=""></div>
+                <div class="slide"><img src="./img/coming-soon.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                    <h3>TP - Showtrack</h3>
+                    <p>TP réalisé au cours de la formation POP School</p>
+                    <button class="view-btn">Voir le TP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Travail -->
+    <!-- Contactez-moi -->
+    <section id="contact" class="contact" >
+        <h2>Contactez-moi</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="text" placeholder="Nom">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Message">
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <!-- Fin Contactez-moi-->
+    <!-- Footer -->
+    <footer>
+        <p>Copyright 2021 - Lopez Logan</p>
+    </footer>
+</body>
+</html>
